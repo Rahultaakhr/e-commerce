@@ -53,6 +53,7 @@ function MyState({ children }) {
         })
         setGetAllOrder(orderArray)
         setLoading(false)
+        console.log("hello");
 
       })
 
