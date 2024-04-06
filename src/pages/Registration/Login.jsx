@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
-import { auth, fireDb } from "../../firebase/firebaseConfiguration";
+import { auth, fireDb, firebaseConfig } from "../../firebase/firebaseConfiguration";
 
 function Login() {
   const { loading, setLoading } = useContext(MyContext)
@@ -70,7 +70,7 @@ function Login() {
 
   }
   useEffect(() => {
-    console.log();
+    console.log(firebaseConfig,"hello");
    
   }, [])
   
