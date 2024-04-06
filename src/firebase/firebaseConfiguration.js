@@ -10,7 +10,7 @@ const firebaseConfig = {
     // messagingSenderId:(import.meta.env.VITE_FIREBASE_MESSAGINGSENDER),
     // appId: (import.meta.env.VITE_FIREBASE_APPID),
     // measurementId:(import.meta.env.VITE_FIREBASE_MEASUREMENTID),
-    apiKey:String(import.meta.env.VITE_FIREBASE_APIKEY),
+    apiKey:String(import.meta.env.VITE_APIKEY),
     authDomain: "ecommerce-6dfad.firebaseapp.com",
     projectId: "ecommerce-6dfad",
     storageBucket: "ecommerce-6dfad.appspot.com",
